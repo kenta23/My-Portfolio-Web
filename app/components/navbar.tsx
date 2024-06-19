@@ -26,7 +26,7 @@ export default function Navbar() {
   }
   return (
     <div
-      className={`w-full h-[80px] bg-white flex items-center border-b-[1px] border-[#1CAB66] px-4 sm:px-8 md:px-12`}
+      className={`w-full h-[80px] text-black bg-white flex items-center border-b-[1px] border-[#1CAB66] px-4 sm:px-8 md:px-12`}
     >
       <div className="w-full bg-slate-50 rounded-md h-auto flex justify-between items-center">
         <Link href={'/'}>
