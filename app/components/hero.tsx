@@ -22,7 +22,7 @@ export default function Hero() {
       <animated.main className="py-10 z-10  px-16 w-full h-auto min-h-[350px] lg:h-[550px] flex items-center justify-center">
         <div className="flex w-full gap-4 justify-between items-center">
           <div className="flex flex-col flex-1 gap-3 items-start">
-            <h1 className="text-[30px] lg:text-[48px] text-wrap">
+            <h1 className="text-[30px] text-[#0c1b0d] lg:text-[48px] text-wrap">
               Hi Im Rusty Miguel Ramos, a Web Developer | UI Designer
             </h1>
 

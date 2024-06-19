@@ -8,11 +8,11 @@ import Link from 'next/link'
 import { useTrail, animated } from '@react-spring/web'
 
  const useProjectAnimations = (length: number) => {
-  return useTrail(length, {
+  return useTrail(length, { 
     from: { opacity: 0, x: 150 },
-    to: { opacity: 1,  x: 50 },
+    to: { opacity: 1,  x: 0 },
     config: { mass: 1, tension: 200, friction: 20 },
-    delay: 20,
+    delay: 20, 
     reset: true
   });
 }; 
@@ -22,10 +22,10 @@ export default function Page() {
    const trails = useProjectAnimations(projects.length); 
    
   return (
-    <div className="w-full min-h-screen h-auto overflow-x-hidden">
+    <div className="w-full min-h-screen h-auto overflow-hidden">
       <Navbar />
 
-      <div className="px-4 md:px-6 mt-12 text-white">
+      <div className="px-4 md:px-6 lg:px-12 mt-12 text-black dark:text-white">
         <h1 className="text-[25px] md:text-[40px] text-center ">Projects</h1>
 
         {/** PROJECTS */}
@@ -48,7 +48,7 @@ export default function Page() {
 
                 {/**DESCRIPTION */}
                 <div className="flex flex-col gap-3 max-w-lg items-start">
-                  <h1 className="text-sm sm:text-[20px] lg:text-[25px]">{item.title}</h1>
+                  <h1 className="text-sm sm:text-[18px] lg:text-[25px]">{item.title}</h1>
                   <Link href={`/projects/${item.name}`}>
                     <p className="font-light text-sm sm:text-lg hover:underline transition-all duration-150 ease-in">
                       Visit project

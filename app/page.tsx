@@ -44,7 +44,7 @@ export default function Home() {
           <Hero />
 
 
-        <animated.section ref={styleRef} style={springs} className="w-full py-8 h-[280px] flex items-center justify-center text-white">
+        <animated.section ref={styleRef} style={springs} className="w-full py-8 h-[280px] flex items-center justify-center">
               <div className="flex flex-1 md:flex-row flex-col-reverse items-center gap-6 md:gap-2 lg:gap-3 justify-around">
                   <div className="flex gap-4 items-center">
                         <Image 
@@ -65,7 +65,7 @@ export default function Home() {
 
 
         {/**PROGRAMMING SKILLS */}
-        <animated.div ref={styleProp} style={spring} className="w-full mt-[75px] py-8 h-auto flex flex-col items-center justify-center text-white">
+        <animated.div ref={styleProp} style={spring} className="w-full mt-[75px] py-8 h-auto flex flex-col items-center justify-center ">
              <h1 className="text-[25px] md:text-[30px] text-center">Programming Skills</h1>
 
              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full px-6 md:px-0 md:w-1/2 mt-[30px] md:mt-[70px] grid-rows-2 items-center">
