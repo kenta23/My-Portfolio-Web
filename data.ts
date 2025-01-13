@@ -56,6 +56,36 @@ export const projects: projectType[] = [
     link: 'https://https://speechy.vercel.app/',
     image: '/Speechy.svg',
     header: '/speechy-header.svg'
+  },
+  {   
+    id: 4,
+    title: 'WeatherV (weather web app)',
+    name: 'weatherv',
+    description: 'A simple weather web app where you can search the weather of any city in the world.',
+    repo: 'https://github.com/kenta23/weatherv',
+    link: 'https://weatherv.vercel.app/',
+    image: '/weatherv-header.svg',
+    header: '/weatherv-header.png ' 
+  },
+  {
+    id: 5,
+    title: '2Do',
+    name: '2do',
+    description: '2Do app is a simple to-do list app where you can add, delete, and edit your tasks.',
+    repo: 'https://github.com/kenta23/2do.git',
+    link: 'https://2do-listx.vercel.app/',
+    image: '/2do.svg', 
+    header: '/2do-header.png' 
+  },
+  {
+    id: 6,
+    title: 'Payroll System ', 
+    name: 'payroll_system',
+    description: 'This is a Payroll System we made using laravel and mysql. the system created during our Internship days on a company. I am the designer and backend developer on this project',
+    repo: 'https://github.com/kenta23/Aeternitas-payroll-system-.git',
+    link: '',
+    image: '/payroll-system.svg',
+    header: '/payroll-system-header.png' 
   }
 ]
 

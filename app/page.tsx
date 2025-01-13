@@ -57,7 +57,7 @@ export default function Home() {
                   </div>
                   
                   <div className="flex-1 px-6 md:px-0 max-w-[650px]">
-                     <p className="text-pretty text-center md:text-left text-sm lg:text-lg">I&apos;m a Self-learned Web developer and UI designer studying at University of Caloocan City. I&apos;m incoming 4th year College student who likes to learn about Web Development. All of my projects were start from scratch, 
+                     <p className="text-pretty text-center md:text-left text-sm lg:text-lg">I&apos;m a Self-learned Web developer and UI designer studying at University of Caloocan City. I&apos;m a 4th year College student who likes to learn about Web Development and Design. All of my projects were start from scratch, 
                       designing and converting them into a Full-Stack applications.</p>
                   </div>
               </div>
@@ -85,6 +85,25 @@ export default function Home() {
                 ))}
 
              </div>
+        </animated.div>
+
+
+       {/** Certifications */}
+
+        <animated.div ref={styleRef} style={springs} className={'mt-[75px] py-8 h-auto flex flex-col gap-12 items-center justify-center'}>
+           <h1 className="text-[25px] md:text-[30px] text-center">My Certifications</h1>
+
+        
+          <div className="w-auto flex-wrap md:flex-row gap-8 justify-center items-start flex flex-col">
+                <Link target="_blank" href={'https://coursera.org/verify/NJBEI3IGR7BZ'}>
+                    <Image title="https://coursera.org/verify/NJBEI3IGR7BZ" className="border-[2px] border-green-600" width={450} height={1000} alt="Certificate 1" src={'/certificate 2.png'}/>
+                </Link>
+
+              <Link target="_blank" href={'https://coursera.org/verify/BXEOIPRP60UY'}>
+                  <Image title="https://coursera.org/verify/BXEOIPRP60UY" className="border-[2px] border-green-600" width={500} height={1000} alt="Certificate 2" src={'/certificate 3.jpeg'}/>
+              </Link>
+               <Image title="Certificate Ojt" className="border-[2px] border-green-600" width={450} height={1000} alt="Certificate Ojt" src={'/certificate ojt.jpg'}/>
+          </div>
         </animated.div>
 
         {/**FOOTER */}

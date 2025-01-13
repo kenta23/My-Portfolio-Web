@@ -19,9 +19,9 @@ export default function Hero() {
       <Navbar />
 
       {/**HERO */}
-      <animated.main className="py-10 z-10  px-16 w-full h-auto min-h-[350px] lg:h-[550px] flex items-center justify-center">
-        <div className="flex w-full gap-4 justify-between items-center">
-          <div className="flex flex-col flex-1 gap-3 items-start">
+      <animated.main className="py-10 z-10 px-16 w-full h-auto min-h-[350px] lg:h-[550px] flex items-center justify-center">
+        <div className="flex flex-row-reverse w-full gap-4 justify-between items-center">
+          <div className="flex w-auto flex-col flex-1 gap-3 items-start">
             <h1 className="text-[30px] text-[#0c1b0d] lg:text-[48px] text-wrap">
               Hi Im Rusty Miguel Ramos, a Web Developer | UI Designer
             </h1>
@@ -35,7 +35,7 @@ export default function Hero() {
          
           </div>
 
-          <div className="md:w-[280px] lg:w-[450px] hidden md:flex z-10 items-center h-auto">
+          <div className="md:w-[280px] flex-1 lg:w-[450px] hidden md:flex z-10 items-center h-auto">
             <div className="w-auto h-auto bg-green-300 shadow-lg shadow-gray-200 rounded-full">
               <Image
                 src="/profile.png"

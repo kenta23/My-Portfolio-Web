@@ -39,7 +39,7 @@ export default function Proj({ item }: { item:  projectType[]}) {
               
               {/**LINKS */}
               <div className='mt-4'>
-                  <p>Website: <Link target='_blank' className='hover:underline font-light text-sm' href={item[0].link}>{item[0].link}</Link></p>
+                  <p>Website: {item[0].link.length > 0 ? <Link target='_blank' className='hover:underline font-light text-sm' href={item[0].link}>{item[0].link}</Link> :  <p className='font-light text-sm text-gray-400'>Not Deployed</p>}</p>
                   <p>Github repo: <Link target='_blank' className='hover:underline font-light text-sm' href={item[0].repo}>{item[0].repo}</Link></p>
               </div>
            </div>
