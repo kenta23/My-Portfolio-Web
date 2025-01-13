@@ -90,7 +90,7 @@ export default function Home() {
 
        {/** Certifications */}
 
-        <animated.div ref={styleRef} style={springs} className={'mt-[75px] py-8 h-auto flex flex-col gap-12 items-center justify-center'}>
+        <animated.div className={'mt-[75px] py-8 h-auto flex flex-col gap-12 items-center justify-center'}>
            <h1 className="text-[25px] md:text-[30px] text-center">My Certifications</h1>
 
         

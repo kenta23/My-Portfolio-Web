@@ -12,7 +12,7 @@ import { useSpring, animated } from '@react-spring/web';
 export default function Hero() {
     const { size, download, cancel } = useDownloader();
     const filename = 'Ramos CV.pdf';
-    const fileUrl = '/Ramos_CV.pdf';
+    const fileUrl = '/My CV 2025.pdf';
 
   return (
     <div className="w-full h-auto relative bg-white">
